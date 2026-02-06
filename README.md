@@ -20,5 +20,4 @@ Missing mandatory fields
 Recommended routing category
 Explanation for routing decision
 
-Modify Input File (Optional)
-You can change the file processed by editing the path inside the run() function in main.py.
+
