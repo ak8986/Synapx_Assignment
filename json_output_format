@@ -1,0 +1,52 @@
+{
+  "extractedFields": {
+    "policyInformation": {
+      "policyNumber": "",
+      "policyholderName": "",
+      "effectiveDates": ""
+    },
+    "incidentInformation": {
+      "date": "",
+      "time": "",
+      "location": "",
+      "description": ""
+    },
+    "involvedParties": {
+      "claimant": "",
+      "thirdParties": "",
+      "contactDetails": ""
+    },
+    "assetDetails": {
+      "assetType": "Automobile",
+      "assetID": "",
+      "estimatedDamage": ""
+    },
+    "otherFields": {
+      "claimType": "",
+      "attachments": "",
+      "initialEstimate": ""
+    }
+  },
+
+  "missingFields": [
+    "policyNumber",
+    "policyholderName",
+    "effectiveDates",
+    "date",
+    "time",
+    "location",
+    "description",
+    "claimant",
+    "thirdParties",
+    "contactDetails",
+    "assetID",
+    "estimatedDamage",
+    "claimType",
+    "attachments",
+    "initialEstimate"
+  ],
+
+  "recommendedRoute": "Manual Review",
+
+  "reasoning": "Many mandatory FNOL fields are missing in the uploaded ACORD document. According to the routing rules, missing mandatory fields require manual review."
+}
